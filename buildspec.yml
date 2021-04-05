@@ -4,7 +4,6 @@ phases:
   install:
     commands:
       - printenv
-      - sudo apt update
       - curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
       - npm install
   build:
